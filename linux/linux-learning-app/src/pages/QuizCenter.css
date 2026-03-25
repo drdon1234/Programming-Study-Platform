@@ -1,0 +1,124 @@
+.qc-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.qc-desc {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.qc-overview {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 28px;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.qc-stat {
+  text-align: center;
+  min-width: 80px;
+}
+
+.qc-stat-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.qc-stat-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.qc-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.qc-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.qc-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.qc-card-icon {
+  font-size: 1.6rem;
+}
+
+.qc-card-module {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.qc-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.qc-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.qc-card-score {
+  margin-bottom: 14px;
+}
+
+.qc-card-score-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.qc-card-btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.15s;
+  margin-top: auto;
+}
+.qc-card-btn:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .qc-list {
+    grid-template-columns: 1fr;
+  }
+  .qc-overview {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,236 @@
+.cd-empty {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cd-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.cd-breadcrumb a {
+  color: var(--text-accent);
+}
+.cd-breadcrumb-sep {
+  color: var(--text-muted);
+}
+
+.cd-header {
+  margin-bottom: 24px;
+}
+
+.cd-header-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.cd-icon {
+  font-size: 2.2rem;
+}
+
+.cd-module-num {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.cd-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.cd-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.cd-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.cd-toc {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 32px;
+}
+
+.cd-toc-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.cd-toc-item {
+  display: block;
+  padding: 5px 0;
+  font-size: 0.9rem;
+  color: var(--text-accent);
+  text-decoration: none;
+}
+.cd-toc-item:hover {
+  text-decoration: underline;
+}
+
+.cd-content {
+  margin-bottom: 32px;
+}
+
+.cd-section {
+  margin-bottom: 36px;
+  scroll-margin-top: calc(var(--header-height) + 20px);
+}
+
+.cd-section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.cd-section-num {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.cd-section-text p {
+  margin-bottom: 12px;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+.cd-bullet {
+  padding-left: 8px;
+  margin-bottom: 6px;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+.cd-inline-code {
+  font-size: 0.88em;
+  background: var(--bg-code);
+  color: #e2e8f0;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.cd-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.cd-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.cd-btn--primary {
+  background: var(--accent);
+  color: #fff;
+}
+.cd-btn--primary:hover {
+  background: var(--accent-hover);
+}
+.cd-btn--outline {
+  background: transparent;
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+}
+.cd-btn--outline:hover {
+  background: var(--bg-accent);
+  text-decoration: none;
+}
+
+.cd-read-badge {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-correct);
+  padding: 8px 16px;
+  background: var(--bg-correct);
+  border-radius: var(--radius-sm);
+}
+
+.cd-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+}
+
+.cd-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.15s;
+  max-width: 48%;
+}
+.cd-nav-link:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+}
+.cd-nav-link--next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.cd-nav-arrow {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+}
+
+.cd-nav-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.cd-nav-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}

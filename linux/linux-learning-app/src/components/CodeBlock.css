@@ -1,0 +1,30 @@
+.codeblock {
+  margin: 16px 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.codeblock-header {
+  background: #21262d;
+  color: #8b949e;
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  border-bottom: 1px solid #30363d;
+}
+
+.codeblock-pre {
+  margin: 0;
+  padding: 0;
+}
+
+.codeblock-pre code {
+  display: block;
+  padding: 16px 20px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  background: #22272e !important;
+  border-radius: 0;
+  overflow-x: auto;
+}

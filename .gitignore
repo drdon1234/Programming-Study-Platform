@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.*
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Playwright MCP logs
+.playwright-mcp/
+
+# PDF resources (keep metadata, ignore large binaries)
+app/pdfs/*.pdf
+c_cpp/*.pdf
+linux/*.pdf
+embeddedSystem/*.pdf
+
+# Coverage
+coverage/
+
+# Local dev overrides
+*.local
